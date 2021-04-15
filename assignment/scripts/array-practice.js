@@ -8,32 +8,31 @@ let animalArray = ['fish', 'cat', 'bird', 'dog'];
 console.log('Animals are: ', animalArray);
 
 // 1.a. TODO: Make an array with some favorite foods
-let favoriteFoods = ["Penne Rosa", "Mashed Potatoes", "Ice Cream"];
+let favoriteFoods = ["1.a) Penne Rosa", "Mashed Potatoes", "Ice Cream"];
 
 // 1.b. TODO: Log your array of foods to the console with a message, similar to the example above
-console.log(`Some of my favorite foods are: ${favoriteFoods}. :)`)
-console.log("Some of my favorite foods are:", favoriteFoods);
+console.log("1.b) Some of my favorite foods are:", favoriteFoods);
 
 // 2. Array.length - tells you how many items are in the array
 console.log('--- 2. Length of an array ---');
 
 // Example: How many animals are in the array?
-console.log('Number of animals:', animalArray.length);
+console.log('Example: Number of animals:', animalArray.length);
 
 // 2.a. TODO: Log to the console the number of foods in your array
-
+console.log("2.a) The number of favoritefoods in my array are: ", favoriteFoods.length);
 
 // 3. Accessing array items
 console.log('--- 3. Accessing items in an array ---');
 
 // Example: Log the first animal from the array using it's array index
-console.log('First animal is', animalArray[0])
+console.log('Example: First animal is', animalArray[0])
 
 // 3.a. TODO: Log the second animal in the array
-
+console.log("3.a) The second animal in the array is ", animalArray[1]);
 
 // 3.b. TODO: Log the last animal in the array using it's array index
-
+console.log("3.b) The last animal in the array is ", animalArray[3]);
 
 // 3.c. (STRETCH) TODO: Log the last animal by using the array length,
 //      instead of the exact index number of the last item
